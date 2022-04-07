@@ -1,8 +1,15 @@
+import Header from "./components/Header";
+import Nav from "./components/Nav/Nav";
+import About from "./components/About/About";
+
 function App() {
   return (
     <div className="App">
-      <h1>Portfolio</h1>
+      <Header />
+      <Nav />
+      <About />
     </div>
+
   );
 }
 
