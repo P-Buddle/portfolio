@@ -13,12 +13,12 @@
 }
 
 :root {
-  --color-bg: #fcd5b1;
-  --color-bg-variant: orange;
-  --color-primary: red;
-  --color-primary-variant: #e03614;
+  --color-bg: #180c4d;
+  --color-bg-variant: rgb(90, 29, 170);
+  --color-primary: rgb(165, 140, 179);
+  --color-primary-variant: #8181a0;
   --color-white: #fff;
-  --color-light: yellow;
+  --color-light: #c2a8eb;
 
   --transition: all 400ms ease;
 
@@ -40,7 +40,13 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-
+  background-image: url(../src/images/sunbg.jpg);
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position-x: 35px;
+ 
+  
+  
 }
 
 /* GENERAL STYLES */
@@ -62,7 +68,9 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 12rem;
+  padding-top: 5rem;
+  
 }
 
 section > h2, section > h5 {
